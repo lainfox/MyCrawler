@@ -4,6 +4,7 @@
    * @singleton
    */
   mw.myCrawler = {};
-  console.warn('============================');
-  console.warn('MyCrawler Lain !!!!');
 })();
+
+console.warn('============================');
+console.warn('MyCrawler Lain !!!!');
