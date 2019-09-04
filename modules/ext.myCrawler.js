@@ -3,8 +3,10 @@
    * @class mw.myCrawler
    * @singleton
    */
-  mw.myCrawler = {};
+  mw.myCrawler = {
+    init: function() {
+      console.warn('============================');
+      console.warn('MyCrawler Lain !!!!');
+    }
+  };
 })();
-
-console.warn('============================');
-console.warn('MyCrawler Lain !!!!');
