@@ -1,0 +1,46 @@
+{
+    "name": "MyCrawler",
+    "author": "Lainyeo",
+    "license-name": "GPL-2.0+",
+    "version": "0.0.0",
+    "namemsg": "myCrawler",
+    "descriptionmsg": "myCrawler-desc",
+    "manifest_version": 1,
+    "MessagesDirs": {
+        "MyCrawler": [ "i18n" ]
+    },
+    "AutoloadClasses": {
+        "SpecialMyCrawler": "specials/SpecialMyCrawler.php"
+    },
+    "ResourceFileModulePaths": {
+        "localBasePath": "modules",
+        "remoteExtPath": "MyCrawler/modules"
+    },
+    "ResourceModules": {
+        "ext.myCrawler": {
+            "scripts": [
+                "ext.myCrawler.js"
+            ],
+            "styles": [
+                "ext.myCrawler.css"
+            ],
+            "messages": [
+                "myCrawler",
+                "myCrawler-desc",
+                "special-myCrawler-title",
+                "special-myCrawler-intro"
+            ],
+            "dependencies": []
+        }
+    },
+    "SpecialPages": {
+        "MyCrawler": "SpecialMyCrawler"
+    },
+    "ExtensionMessagesFiles": {
+        "MyCrawlerAlias": "MyCrawler.alias.php"
+    },
+    "Hooks": {
+        "ResourceLoaderTestModules": [ "MyCrawlerHooks::onResourceLoaderTestModules" ]
+    },
+    "type": "other"
+}

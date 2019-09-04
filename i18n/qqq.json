@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Lainyeo"
+        ]
+    },
+    "myCrawler": "The name of the extension",
+    "myCrawler-desc": "{{desc|name=MyCrawler|url=}}",
+    "special-myCrawler-title": "Title of the special page Special:MyCrawler",
+    "special-myCrawler-intro": "Description appearing on top of <tvar|1>Special:{{ll|MyCrawler}}</>."
+}
