@@ -21,8 +21,7 @@ class SpecialMyCrawler extends SpecialPage {
 		$out->addHelpLink( 'How to become a MediaWiki hacker' );
 		$out->addWikiMsg( 'special-myCrawler-intro' );
 
-		$out->addModules( 'ext.myCrawler.script' );
-		$out->addModules( 'mw.myCrawler.init' );
+		$out->addModules( 'ext.myCrawler' );
 	}
 
 	protected function getGroupName() {
