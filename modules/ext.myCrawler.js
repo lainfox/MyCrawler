@@ -10,3 +10,5 @@
     }
   };
 })();
+
+console.warn('MyCrawler Lain !!!!');
