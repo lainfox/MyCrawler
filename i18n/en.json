@@ -1,11 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Lainyeo"
-        ]
-    },
-    "myCrawler": "MyCrawler",
-    "myCrawler-desc": "",
-    "special-myCrawler-title": "MyCrawler",
-    "special-myCrawler-intro": ""
+  "@metadata": {
+    "authors": ["Lainyeo"]
+  },
+  "myCrawler": "MyCrawler",
+  "myCrawler-desc": "",
+  "special-myCrawler-title": "MyCrawler",
+  "special-myCrawler-intro": "Hello ther."
 }
